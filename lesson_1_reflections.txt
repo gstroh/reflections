@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	By displaying just the lines that had changed.  Then, the typo was easy to spot.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	When trying new ideas, it is easy to introduce errors.  So, it's nice to be able to go back.
+	Also, it is nice to test you code in previous versions to see how it responds to certain tests, like image responsiveness, versus newer versions.
+	In my experience in programming, it is great to have code with an example of something you are trying to accomplish.  Then you can always refer to it and use it in a current project.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Automatic version control is nice in that you won't forget to commit.  But, the version may make no logical sense.  It is best to manually commit per logical change.  This allows the developer to enter a clear version description that will make the use of multiple versions much easier to manage and use.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	Git is designed for a programming environment, where multiple files are logically linked and require being committed at the same time.  Google Docs is designed for individual documents or files.  Its audience is much broader and more general.
+
+How can you use the commands git log and git diff to view the history of files?
+	Well, if the instructor had mentioned the down arrow key was needed to scroll down, I would have known how to do the exercise!!  Use git log to see the commit history.  Find the change in question.  Use git diff to see the specific changes between the commit in question and the previous commit.  Again, the down arrow key is needed to scroll through the git log history and the git diff changes.
+
+How might using version control make you more confident to make changes that could break something?
+	I am not confident at this point because I could never get an older version of the file to work in the exercise. git checkout never worked for me.  I tried more than 50 times.  The index.html file had the same behavior no matter what version I tried. I made sure to checkout the latest version before trying to checkout an older version.  It just never worked.  I am hoping to get this to work in a later exercise.  Should I just stop the class at this point and wait for a coach appointment?
+	I'm not sure I really understand the question.  Should I be more confident about breaking things?  If I do break something and version control works, I can certainly go back to a working version.
+
