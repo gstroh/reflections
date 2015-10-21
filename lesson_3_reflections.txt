@@ -1,3 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
-  If you don't have access to the local machine, you may want to add something remotely.  In addition, there may be multiple people working on the project.
-  
+	If you don't have access to the local machine, you may want to add something remotely.  In addition, there may be multiple people working on the project.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	You would want to pull manually because there may be multiple people changing the GitHub repository.  You would want to make sure of the commits to the remote before pulling it.
+
