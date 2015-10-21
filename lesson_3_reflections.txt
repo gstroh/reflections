@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  If you don't have access to the local machine, you may want to add something remotely.  In addition, there may be multiple people working on the project.
+  
